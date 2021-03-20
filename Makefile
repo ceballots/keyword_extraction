@@ -3,4 +3,4 @@ docker-start-jupyter-notebook: docker-build-jupyter
 
 
 docker-build-jupyter:
-	docker build --rm -t "jupyter" -f "docker/Dockerfile" .
+	docker build --rm -t "jupyter" -f "docker/jupyter_notebook.dockerfile" .
