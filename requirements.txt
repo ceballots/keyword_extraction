@@ -1,2 +1,6 @@
 pandas
 numpy
+seaborn
+matplotlib
+sklearn
+nltk
